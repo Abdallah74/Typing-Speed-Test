@@ -1,0 +1,57 @@
+@media (max-width: 575px) {
+  .name {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  .msg {
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  .the-word {
+    font-size: 35px;
+  }
+  .upcoming-words {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .name {
+    font-size: 20px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .the-word {
+    font-size: 35px;
+  }
+  .upcoming-words {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .name {
+    font-size: 25px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .the-word {
+    font-size: 50px;
+  }
+  .upcoming-words {
+    font-size: 13px;
+  }
+}
+
+/* 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+} */

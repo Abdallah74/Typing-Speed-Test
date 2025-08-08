@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Test Game</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/normlize.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="shortcut icon" href="./img/icon1.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="game">
+      <h1 class="name">Typing Speed Test Game</h1>
+      <div class="container">
+        <div class="msg">
+          <h4>
+            You Are Playing On
+            <span class="lvl"></span> Level & You Have
+            <span class="seconds"></span> Seconds To Type The Word
+          </h4>
+        </div>
+        <button class="start">Start Playing</button>
+        <div class="the-word"></div>
+        <input type="text" class="input" />
+        <div class="upcoming-words">Words Will Show Here</div>
+        <div class="control">
+          <div class="time">
+            <h4>Time Left: <span></span> Seconds</h4>
+          </div>
+          <div class="score">
+            <h4>
+              Score: <span class="got">0</span> From <span class="total"></span>
+            </h4>
+          </div>
+        </div>
+        <div class="finish"></div>
+      </div>
+    </div>
+    <script src="./src/main.js"></script>
+  </body>
+</html>

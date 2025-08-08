@@ -1,0 +1,19 @@
+? [00] Create HTMl Markup
+? [01] Add Styling & Separate From Logic
+? [02] Create The App Logic
+? ----[00] Add Levels
+? ----[01] Show Level And Seconds
+? ----[02] Add Array Of Words
+? ----[03] Add Start Game Btn
+? ----[04] Genrate Upcoming Words
+? ----[05] Disable Copy Word & Paste Event + Focus On Input
+? ----[06] Start Play Function
+? ----[07] Start The Time & Count Score
+? ----[08] Add The Error And Success Msg
+! [04] Your Trainings To Add Features
+! ---- [01] Save Score To Local Storage With Date
+! ---- [02] Choose Levels From Select Box
+! ---- [03] Break The Logic To More Functions
+! ---- [04] Choose Array Of Words For Every Level
+! ---- [05] Write Game Instruction With Dynamic Values
+! ---- [06] Add 3 Seconds For The First Word
